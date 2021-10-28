@@ -139,9 +139,9 @@
       animation: head 12s 2s 1 forwards linear;
   }
   @keyframes head {
-      0%{fill: red;}
+      
       5%{
-        fill: red;
+        
         transform: translate(33
         px
         , 48
@@ -159,6 +159,8 @@
       65%{transform: translate(247px,400px);}
       75%{transform: translate(299px,475px);}
       85%{transform: translate(349px,430px);}
+      99%{transform: translate(408px,475px);
+    fill: rgb(255, 185, 185);}
       100%{transform: translate(408px,475px);
         
         fill: red;}
