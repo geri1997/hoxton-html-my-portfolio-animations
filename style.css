@@ -6,6 +6,7 @@
   
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
   body {
@@ -416,7 +417,20 @@ div.ball {
         0%{z-index: 15;}
         100%{z-index: -5;}
     }
-  
+    
+    .score{
+        position: absolute;
+        z-index: 50;
+        font-size: 40px;
+        background-color: rgba(245, 222, 179, 0.582);
+        top: 224px;
+        right: -20%;
+        animation: score 15s 2s 1 forwards;
+    }
+    @keyframes score {
+        100%{right: 100%;}
+        
+    }
   
     div.player2-rest img{
         position: fixed;
