@@ -350,6 +350,10 @@ footer a{
 
 /* TENNIS */
 
+figure.tennis{
+    position: absolute;
+    left: -50%;
+}
 div.ball {
     width: 45px;
     height: 45px;
@@ -425,7 +429,7 @@ div.ball {
         background-color: rgba(245, 222, 179, 0.582);
         top: 224px;
         right: -20%;
-        animation: score 15s 2s 1 forwards;
+        animation: score 15s 15s 1 forwards;
     }
     @keyframes score {
         100%{right: 100%;}
