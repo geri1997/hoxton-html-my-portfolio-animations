@@ -347,7 +347,206 @@ footer a{
     
 }
 
+/* TENNIS */
 
+div.ball {
+    width: 45px;
+    height: 45px;
+  
+    position: fixed;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+    animation-timing-function: ease-out;}
+  
+    div.player1 img{
+        width: 10rem;
+        position: fixed;
+        top: 500px;
+        left: -2%;
+        z-index: -2;
+        animation-name: player1;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          /* animation-delay: 5s; */
+          animation-direction: alternate;
+        
+    }
+    @keyframes player1{
+      0%{ z-index: 5;}
+      100%{z-index: -10;}
+    }
+  
+  
+  
+    div.paragraph{
+        background-color: rgb(118, 143, 143);
+    }
+    div.player2 img{
+        width: 7rem;
+        position: fixed;
+        z-index: -4;
+        top: 500px;
+        left: 93%;
+        animation-name: player2;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+        
+    }
+    @keyframes player2 {
+        0%{z-index: -15;}
+        100%{z-index: 5;}
+    }
+  
+    div.player2-rest img{
+        width: 7rem;
+        position: fixed;
+        z-index: -4;
+        top: 500px;
+        left: 93%;
+        animation-name: player2-rest;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+        
+    }
+    @keyframes player2-rest {
+        0%{z-index: 15;}
+        100%{z-index: -5;}
+    }
+  
+  
+    div.player2-rest img{
+        position: fixed;
+        z-index: -1;
+        width: 7rem;
+        left: 93%;
+        
+        top: 500px;
+    }
+     div.player1-rest img{
+        position: fixed;
+        z-index: -5;
+        width: 7rem;
+        left: 0%;
+        z-index: -2;
+        animation-name: player1-rest;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+        top: 500px;
+    }
+  
+    @keyframes player1-rest {
+        0%{z-index: -5;}
+        100%{z-index: 10;}
+    }
+  
+  @keyframes example {
+      0%   { left:0%; top:500px;}
+    1%   { left:1%; top:497px;}
+    2%   { left:2%; top:494px;}
+    3%   { left:3%; top:491px;}
+    4%   { left:4%; top:488px;}
+    5%   { left:5%; top:485px;}
+    6%   { left:6%; top:482px;}
+    7%   { left:7%; top:479px;}
+    8%   { left:8%; top:476px;}
+    9%   { left:9%; top:473px;} 
+    10%   { left:10%; top:470px;} 
+    11%   { left:11%; top:467px;}
+    12%   { left:12%; top:464px;}
+    13%   { left:13%; top:461px;}
+    14%   { left:14%; top:458px;}
+    15%   { left:15%; top:455px;}
+    16%   { left:16%; top:452px;}
+    17%   { left:17%; top:449px;}
+    18%   { left:18%; top:446px;}
+    19%   { left:19%; top:443px;}
+    20%   { left:20%; top:440px;}
+    21%  { left:21%; top:437px;}
+    22%  { left:22%; top:434px;}
+    23%  { left:23%; top:431px;}
+    24%  { left:24%; top:428px;}
+    25%  { left:25%; top:425px;}
+    26%  { left:26%; top:422px;}
+    27%  { left:27%; top:419px;}
+    28%  { left:28%; top:416px;}
+    29%  { left:29%; top:413px;}
+    30%  { left:30%; top:410px;}
+    31%  { left:31%; top:407px;}
+    32%  { left:32%; top:404px;}
+    33%  { left:33%; top:401px;}
+    34%  { left:34%; top:398px;}
+    35%  { left:35%; top:395px;}
+    36%  { left:36%; top:392px;}
+    37%  { left:37%; top:389px;}
+    38%  { left:38%; top:386px;}
+    39%  { left:39%; top:383px;}
+    40%  { left:40%; top:380px;}
+    41%  { left:41%; top:377px;}
+    42%  { left:42%; top:374px;}
+    43%  { left:43%; top:373px;}
+    44%  { left:44%; top:370px;}
+    45%  { left:45%; top:367px;}
+    46%  { left:46%; top:364px;}
+    47%  { left:47%; top:361px;}
+    48%  { left:48%; top:358px;}
+    49%  { left:49%; top:355px;}
+    50%  { left:50%; top:352px;}
+    51%  { left:51%; top:349px;}
+    52%  { left:52%; top:352px;}
+    53%  { left:53%; top:355px;}
+    54%  { left:54%; top:358px;}
+    55%  { left:55%; top:361px;}
+    56%  { left:56%; top:364px;}
+    57%  { left:57%; top:367px;}
+    58%  { left:58%; top:369px;}
+    59%  { left:59%; top:372px;}
+    60%  { left:60%; top:375px;}
+    61%  { left:61%; top:378px;}
+    62%  { left:62%; top:381px;}
+    63%  { left:63%; top:384px;}
+    64%  { left:64%; top:387px;}
+    65%  { left:65%; top:390px;}
+    66%  { left:66%; top:393px;}
+    67%  { left:67%; top:396px;}
+    68%  { left:68%; top:399px;}
+    69%  { left:69%; top:402px;}
+    70%  { left:70%; top:405px;}
+    71%  { left:71%; top:408px;}
+    72%  { left:72%; top:411px;}
+    73%  { left:73%; top:414px;}
+    74%  { left:74%; top:417px;}
+    75%  { left:75%; top:420px;}
+    76%  { left:76%; top:423px;}
+    77%  { left:77%; top:426px;}
+    78%  { left:78%; top:429px;}
+    79%  { left:79%; top:432px;}
+    80%  { left:80%; top:435px;}
+    81%  { left:81%; top:438px;}
+    82%  { left:82%; top:441px;}
+    83%  { left:83%; top:444px;}
+    84%  { left:84%; top:447px;}
+    85%  { left:85%; top:450px;}
+    86%  { left:86%; top:453px;}
+    87%  { left:87%; top:456px;}
+    88%  { left:88%; top:459px;}
+    89%  { left:89%; top:462px;}
+    90%  { left:90%; top:465px;}
+    91%  { left:91%; top:468px;}
+    92%  { left:92%; top:471px;}
+    93%  { left:93%; top:474px;}
+    94%  { left:94%; top:477px;}
+    95%  { left:95%; top:480px;}
+    96%  { left:96%; top:483px;}
+    97%  { left:97%; top:486px;}
+    98%  { left:98%; top:489px;}
+    99%  { left:99%; top:492px;}
+    100% { left:100%; top:495px;}
+  }
 
 @media screen and (max-width: 650px) {
   iframe{
